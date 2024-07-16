@@ -65,3 +65,7 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+input[type=email], input[type=password] {
+    border: 1px solid black;
+}
