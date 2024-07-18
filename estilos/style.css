@@ -36,7 +36,7 @@ section#login {
 
     background-color: white;
     width: 256px;
-    height: 470px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.814);
 
@@ -68,16 +68,34 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid  #5f2c82;
     display: block;
     width: 100%;
     height: 40%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
-form label {
-    display: none
-    ;
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 8px;
+}
+
+div.campo > input {
+    background-color: #49c09d;
+    font-size: 1em;
+    width: calc()(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(-10px);
 }
 
 input[type=email], input[type=password] {
